@@ -1,5 +1,7 @@
 # Do GEO Search
 
+[简体中文](README.md) | [English](README.en.md)
+
 [![CI](https://github.com/aheadacheyxw/do-geo-search/actions/workflows/ci.yml/badge.svg)](https://github.com/aheadacheyxw/do-geo-search/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB.svg)](https://www.python.org/)
 [![GEO](https://img.shields.io/badge/GEO-evidence--first-315EFB.svg)](#核心原则)
@@ -124,6 +126,7 @@ geo-monitor compare \
 ├── scripts/                  # CLI 入口与浏览器证据采集器
 ├── templates/                # 品牌无关的虚构输入模板
 ├── tests/                    # 单元与回归测试
+├── README.en.md              # English documentation
 ├── SKILL.md                  # Codex Skill 主入口
 └── pyproject.toml            # Python 包与命令行配置
 ```

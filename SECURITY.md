@@ -1,5 +1,7 @@
 # 安全策略
 
+[简体中文](SECURITY.md) | [English](SECURITY.en.md)
+
 ## 报告安全问题
 
 请不要在公开 Issue 中提交账号、Cookie、平台会话、原始回答证据或客户数据。安全问题应通过 GitHub 仓库的私密安全报告功能提交。

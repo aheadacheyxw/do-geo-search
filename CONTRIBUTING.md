@@ -1,5 +1,7 @@
 # 贡献指南
 
+[简体中文](CONTRIBUTING.md) | [English](CONTRIBUTING.en.md)
+
 ## 开发流程
 
 1. 从 `main` 创建短生命周期分支。
