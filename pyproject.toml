@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geo-ai-search-monitoring"
+version = "0.1.0"
+description = "Evidence-first, brand-neutral GEO/AI search monitoring skill and local toolkit."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+geo-monitor = "geo_monitoring.cli:main"
+
+[tool.setuptools]
+packages = ["geo_monitoring"]

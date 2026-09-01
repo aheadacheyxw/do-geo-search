@@ -1,0 +1,52 @@
+{
+  "project_id": "example-brand-cn",
+  "profile_version": "example-brand-profile-v1",
+  "canonical_brand": "示例品牌",
+  "aliases": ["Example Brand"],
+  "official_domains": ["example.com"],
+  "products_services": ["示例产品"],
+  "audiences": ["企业采购与业务团队"],
+  "markets_languages": [
+    {"market": "中国大陆", "language": "zh-CN"}
+  ],
+  "target_ai_platforms": [
+    {"platform": "示例 AI 平台", "surface_class": "general_ai_web", "web_surface": "web_ui"}
+  ],
+  "business_goals": ["growth_acquisition", "brand_factual_accuracy_and_risk"],
+  "success_signals": ["brand_mention", "explicit_recommendation", "formal_rank", "verified_citation", "sentiment", "factual_risk"],
+  "declared_competitors": [
+    {"competitor_id": "competitor-a", "name": "示例竞品 A", "aliases": [], "official_domains": ["competitor.example"]}
+  ],
+  "exclusions": ["media", "community", "cdn", "unknown_domain"],
+  "fact_sources": [
+    {"claim": "官方域名为 example.com", "status": "supplied_unverified", "reference": "example input"}
+  ],
+  "measurement_context": {
+    "market_region": "中国大陆",
+    "language_locale": "zh-CN",
+    "platform_product_surface": "web_ui",
+    "account_session_class": "dedicated_monitoring_account",
+    "web_search_mode": "record_observed_value",
+    "mode_reasoning_state": "record_observed_value",
+    "collection_mode": "standardized_local_UI",
+    "session_rule": "new_conversation_per_question"
+  },
+  "human_confirmation": {
+    "decision": "approved",
+    "profile_version": "example-brand-profile-v1",
+    "confirmed_by": "example-user",
+    "confirmed_at": "2026-01-01",
+    "comment": "仅用于仓库自测的虚构示例。"
+  },
+  "source_permissions": [
+    {"source": "user_materials", "status": "approved_imported"},
+    {"source": "external_keyword_tool", "status": "declined"}
+  ],
+  "questions": [
+    {"exact_question_text": "该业务场景有哪些服务商值得优先评估？", "primary_intent": "discover", "question_group": "scenario_provider_recommendation", "business_importance": "high"},
+    {"exact_question_text": "示例品牌与示例竞品 A 应从哪些可验证维度比较？", "primary_intent": "evaluate", "question_group": "registered_competitor_comparison", "business_importance": "high"},
+    {"exact_question_text": "示例产品适合哪些场景，采购前应核验什么？", "primary_intent": "transact", "question_group": "branded_product_procurement", "business_importance": "high"},
+    {"exact_question_text": "出现服务不稳定时应该如何排查？", "primary_intent": "solve", "question_group": "high_value_pain_point", "business_importance": "medium"},
+    {"exact_question_text": "采购前如何核验价格、合规和服务承诺？", "primary_intent": "evaluate", "question_group": "risk_procurement_check", "business_importance": "medium"}
+  ]
+}

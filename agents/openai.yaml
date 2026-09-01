@@ -1,0 +1,4 @@
+interface:
+  display_name: "通用 GEO AI 搜索监测"
+  short_description: "证据优先的 GEO 监测、竞品差距、内容机会与周期对比。"
+  default_prompt: "使用 $geo-ai-search-monitoring 为一个品牌建立或运行通用 GEO 监测；首次引导控制在四次确认内。"
