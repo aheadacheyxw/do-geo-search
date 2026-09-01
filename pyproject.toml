@@ -6,8 +6,20 @@ build-backend = "setuptools.build_meta"
 name = "geo-ai-search-monitoring"
 version = "0.1.0"
 description = "Evidence-first, brand-neutral GEO/AI search monitoring skill and local toolkit."
+readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Homepage = "https://github.com/aheadacheyxw/do-geo-search"
+Repository = "https://github.com/aheadacheyxw/do-geo-search"
+Issues = "https://github.com/aheadacheyxw/do-geo-search/issues"
 
 [project.scripts]
 geo-monitor = "geo_monitoring.cli:main"
